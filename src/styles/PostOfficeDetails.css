@@ -4,13 +4,17 @@
     gap: 16px; /* Space between cards */
     justify-content: center; /* Center align items */
     padding: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
   .post-office-card {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
-    background-color: #fff;
+    background-color: #3b0b0b;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1 1 300px; /* Flex-grow, flex-shrink, and min-width */
     max-width: 400px; /* Maximum width for the card */
